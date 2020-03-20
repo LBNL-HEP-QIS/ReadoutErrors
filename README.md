@@ -1,3 +1,3 @@
-# ReadoutErrors
+# Readout Errors
 
 Near term quantum computers have signficant gate and readout errors that must be mitigated or corrected for reliable measurements.  Correcting readout errors in quantum computers is analagous to what experimental high-energy physicsts (HEP) call _unfolding_.  We have compared the most widely used methods in quantum computing (simple matrix inversion or the slightly regularized variant in qiskit ignis) with _iterative Bayesian unfolding_, a method commonly used in HEP.  This work is documented in [1910.01969 [quant-ph]](https://arxiv.org/abs/1910.01969).  The notebook used for the plots in that paper can be found in this repository.
